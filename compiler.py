@@ -1,6 +1,8 @@
-title = "BlogEase"
-topic = "What's BlogEase"
-banner_src = "assets/banner.png"
+import data
+
+title = data.title
+topic = data.topic
+banner_src = data.banner_src
 
 header = f'<!DOCTYPE html>\n<html lang="en">\n<head>\n<meta charset="UTF-8">\n<meta name="viewport" content="width=device-width, initial-scale=1.0">\n<title>{title}</title>\n<link rel="icon" type="favicon.png" href="favicon.png">\n<link rel="stylesheet" href="style.css" />\n</head>\n'
 body = f'<body bgcolor="white">\n<div class="banner">\n<img src="{banner_src}" alt="" class="banner-img">\n</div>\n<div class="center">\n<b class="bald-text">{topic}</b>\n<hr class="solid-border">\n<br>\n'
