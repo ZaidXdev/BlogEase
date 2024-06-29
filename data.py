@@ -1,2 +1,3 @@
-show_banner = True
-title = "What's BlogEase"
+title = "BlogEase"
+topic = "What's BlogEase"
+banner_src = "assets/banner.png"
