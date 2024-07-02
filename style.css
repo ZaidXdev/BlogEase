@@ -101,6 +101,7 @@ a:hover {
 }
 
 .img:hover {
+    cursor: pointer;
     border-radius: 25px;
     scale: 90%;
     align-self: right;
@@ -127,4 +128,53 @@ a:hover {
     font-size: 60px;
     font-family: myFont;
     text-indent: 1lvw;
+}
+
+.bottom {
+    /* grid-template-rows:; */
+    /* padding: 3%; */
+    /* pad */
+    margin-top: 10%;
+    background-color: rgb(211, 211, 211);
+    padding-top: 80px;
+    position: relative;
+    /* overflow: visible; */
+    display: grid;
+}
+
+.small-text {
+    display: inline-block;
+    color: #777;
+    align-self: center;
+    scale: 0.75;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+.light-link {
+    color: #555;
+}
+
+.img-links {
+    margin: 10px;
+    color: #444;
+    scale: 1.25;
+    transition: scale 0.3s ease;
+}
+
+.img-links:hover {
+    scale: 1.5;
+}
+
+.powered-text-container {
+    /* background-color: #000; */
+    width: 85%;
+    text-align: right;
+}
+
+.social-media-btns {
+    width: 15%;
 }

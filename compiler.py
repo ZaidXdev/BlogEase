@@ -43,8 +43,8 @@ def mdToHtml(text):
         i += 1
     return htmlText
 
-header = f'<!DOCTYPE html>\n<html lang="en">\n<head>\n<meta charset="UTF-8">\n<meta name="viewport" content="width=device-width, initial-scale=1.0">\n<title>{title}</title>\n<link rel="icon" type="favicon.png" href="favicon.png">\n<link rel="stylesheet" href="style.css" />\n</head>\n'
-body = f'<body bgcolor="white">\n<div class="banner">\n<img src="{banner_src}" alt="" class="banner-img">\n</div>\n<button id="scrollToTopBtn" title="Go to top">Top</button>\n<script src="script.js"></script>\n<div class="center">\n<div class="profile">\n<img class="logo" src="{logo_src}" alt="creator">\n<strong><b class="bald-text">{topic}</b></strong>\n</div>\n<hr class="solid-border">\n<br>\n'
+header = f'<!DOCTYPE html>\n<html lang="en">\n<head><meta charset="UTF-8">\n<meta name="viewport" content="width=device-width, initial-scale=1.0">\n<title>{title}</title>\n<link rel="icon" type="favicon.png" href="favicon.png">\n<link rel="stylesheet" href="style.css" />\n</head>\n<body bgcolor="white"><!-- <div class="background"></div> -->\n<div class="banner">\n<img src="{banner_src}" alt="" class="banner-img">\n</div\n<button id="scrollToTopBtn" title="Go to top">Top</button>\n<script src="script.js"></script>\n<div class="center">\n<div class="profile">\n<img class="logo" src="{logo_src}" alt="creator">\n<strong><b class="bald-text">{topic}</b></strong>\n</div>\n<hr class="solid-border">\n<br>'
+body = f''
 end = '\n</div>\n</body>\n</html>'
 
 blog = open("blog.md", "r")
